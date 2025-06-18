@@ -70,15 +70,15 @@
 
         <!--================ Banner =================-->
         <section class="banner_area">
-          <div class="box_1620">
+          <div class="box_1020">
             <div class="banner_inner d-flex align-items-center">
               <div class="container">
                 <div class="banner_content text-center">
                   <h2>Machine Learning Projects</h2>
-                  <div class="page_link">
+                  <!-- <div class="page_link">
                     <a href="index.html">Home</a>
                     <a href="projects.html">Projects</a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@
         </section>
         <!--================ End Banner =================-->
 
-        <!--================ Project Gallery =================-->
+
         <section class="home_gallery_area p_120">
           <div class="container">
             <div class="main_title">
@@ -96,78 +96,106 @@
             <div class="isotope_fillter">
               <ul class="gallery_filter list">
                 <li class="active" data-filter="*"><a href="#">All</a></li>
-                <li data-filter=".nlp"><a href="#">NLP</a></li>
+                <li data-filter=".ml"><a href="#">ML</a></li>
                 <li data-filter=".cv"><a href="#">Computer Vision</a></li>
-                <li data-filter=".mlops"><a href="#">MLOps</a></li>
-                <li data-filter=".research"><a href="#">Research</a></li>
+                <li data-filter=".nlp"><a href="#">NLP</a></li>
+                <li data-filter=".deploy"><a href="#">Deployment</a></li>
               </ul>
             </div>
-
-            <div class="gallery_f_inner row imageGallery1 mt-4">
-              <!-- NLP Project -->
-              <div class="col-lg-4 col-md-6 nlp research">
+          </div>
+          <div class="container">
+            <div class="gallery_f_inner row imageGallery1">
+              <div class="col-lg-4 col-md-4 col-sm-6 ml deploy">
                 <div class="h_gallery_item">
                   <div class="g_img_item">
-                    <img class="img-fluid" src="img/gallery/bert-chatbot.jpg" alt="BERT Chatbot">
-                    <a class="light" href="img/gallery/bert-chatbot.jpg"><img src="img/gallery/icon.png" alt=""></a>
+                    <img class="img-fluid" src="img/gallery/Stock Price Prediction.png" alt="Predictive Analytics Dashboard">
+                    <a class="light" href="img/gallery/Stock Price Prediction.png"><img src="img/gallery/icon.png" alt=""></a>
                   </div>
                   <div class="g_item_text">
-                    <h4>BERT-powered Conversational Agent</h4>
-                    <p>Context-aware chatbot using HuggingFace Transformers</p>
+                    <h4>
+                      <a href="https://github.com/DD-Dwaipayan24/Stock-Price-Prediction-Using-Monte-Carlo-Simulation" target="_blank" style="color: inherit; text-decoration: none;">
+                        Stock Price Prediction Using Monte Carlo Simulation
+                      </a>
+                    </h4>
+                    <p>Time Series | Python | Monte Carlo Simulation</p>
                   </div>
                 </div>
               </div>
-
-              <!-- Computer Vision Project -->
-              <div class="col-lg-4 col-md-6 cv">
+              <div class="col-lg-4 col-md-4 col-sm-6 cv ml">
                 <div class="h_gallery_item">
                   <div class="g_img_item">
-                    <img class="img-fluid" src="img/gallery/object-detection.jpg" alt="Object Detection">
-                    <a class="light" href="img/gallery/object-detection.jpg"><img src="img/gallery/icon.png" alt=""></a>
+                    <img class="img-fluid" src="img/gallery/Human Activity Recognition.jpg" alt="Human Activity Recognition">
+                    <a class="light" href="img/gallery/Human Activity Recognition.jpg"><img src="img/gallery/icon.png" alt=""></a>
                   </div>
                   <div class="g_item_text">
-                    <h4>Real-Time Object Detection</h4>
-                    <p>YOLOv5 deployment for smart surveillance</p>
+                    <h4>
+                      <a href="https://github.com/DD-Dwaipayan24/HealthGuard-Monitoring-Human-Activity-for-Early-Detection-of-Health-Issues-in-Home-Environments" target="_blank" style="color: inherit; text-decoration: none;">
+                        Human Activity Recognition Model
+                      </a>
+                    </h4>
+                    <p>EfficientNetB7 | Computer Vision | Classification</p>
                   </div>
                 </div>
               </div>
-
-              <!-- MLOps Project -->
-              <div class="col-lg-4 col-md-6 mlops">
+              <div class="col-lg-4 col-md-4 col-sm-6 nlp ml">
                 <div class="h_gallery_item">
                   <div class="g_img_item">
-                    <img class="img-fluid" src="img/gallery/mlops-pipeline.jpg" alt="MLOps Pipeline">
-                    <a class="light" href="img/gallery/mlops-pipeline.jpg"><img src="img/gallery/icon.png" alt=""></a>
+                    <img class="img-fluid" src="img/gallery/Machine Translation - English to French.jpg" alt="Machine Translation">
+                    <a class="light" href="img/gallery/Machine Translation - English to French.jpg"><img src="img/gallery/icon.png" alt=""></a>
                   </div>
                   <div class="g_item_text">
-                    <h4>CI/CD Pipeline for ML Models</h4>
-                    <p>Docker, GitHub Actions, and FastAPI on AWS</p>
+                    <h4>
+                      <a href="https://github.com/DD-Dwaipayan24/English-to-French-NLP-Project" target="_blank" style="color: inherit; text-decoration: none;">
+                        Machine Translation : English to French
+                      </a>
+                    </h4>
+                    <p>NLP | Bidirectional-GRU | Sequence-to-Sequence</p>
                   </div>
                 </div>
               </div>
-
-              <!-- Research Project -->
-              <div class="col-lg-4 col-md-6 research nlp">
+              <!-- <div class="col-lg-4 col-md-4 col-sm-6 ml deploy">
                 <div class="h_gallery_item">
                   <div class="g_img_item">
-                    <img class="img-fluid" src="img/gallery/paper-summarizer.jpg" alt="Summarization">
-                    <a class="light" href="img/gallery/paper-summarizer.jpg"><img src="img/gallery/icon.png" alt=""></a>
+                    <img class="img-fluid" src="img/gallery/project-deploy1.jpg" alt="API Deployment">
+                    <a class="light" href="img/gallery/project-deploy1.jpg"><img src="img/gallery/icon.png" alt=""></a>
                   </div>
                   <div class="g_item_text">
-                    <h4>Scientific Paper Summarizer</h4>
-                    <p>Abstractive summarization using T5</p>
+                    <h4>ML Model API</h4>
+                    <p>Flask | Docker | Cloud Hosted</p>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="col-lg-4 col-md-4 col-sm-6 nlp cv">
+                <div class="h_gallery_item">
+                  <div class="g_img_item">
+                    <img class="img-fluid" src="img/gallery/project-multimodal.jpg" alt="Multimodal Model">
+                    <a class="light" href="img/gallery/project-multimodal.jpg"><img src="img/gallery/icon.png" alt=""></a>
+                  </div>
+                  <div class="g_item_text">
+                    <h4>Multimodal Emotion Recognition</h4>
+                    <p>CV + NLP | Deep Learning</p>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-lg-4 col-md-4 col-sm-6 ml">
+                <div class="h_gallery_item">
+                  <div class="g_img_item">
+                    <img class="img-fluid" src="img/gallery/project-ml2.jpg" alt="Recommendation System">
+                    <a class="light" href="img/gallery/project-ml2.jpg"><img src="img/gallery/icon.png" alt=""></a>
+                  </div>
+                  <div class="g_item_text">
+                    <h4>Movie Recommendation Engine</h4>
+                    <p>Collaborative Filtering | Streamlit App</p>
                   </div>
                 </div>
               </div>
-
-              <!-- Additional projects as needed -->
             </div>
-
-            <div class="more_btn text-center mt-5">
-              <a class="main_btn" href="#">Load More Projects</a>
+            <div class="more_btn">
+              <a class="main_btn" href="#">View More Projects</a>
             </div>
           </div>
         </section>
+
         <!--================ End Project Gallery =================-->
 
         <!--================ Footer =================-->
